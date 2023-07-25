@@ -1,54 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <title>Filter Element</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="filter">
-      <div class="title">КАТАЛОГ</div>
-      <div class="checkbox-container">
-        <ul class="checkbox-list">
-          <li>Мова:</li>
-          <li><input type="checkbox" />Англiйська</li>
-          <li><input type="checkbox" />Французька</li>
-          <li><input type="checkbox" />Нiмецька</li>
-          <li><input type="checkbox" />Мовонезалежна</li>
-          <li><input type="checkbox" />Польска</li>
-          <li><input type="checkbox" />Украiньска</li>
-        </ul>
-      </div>
-      <div class="checkbox-container">
-        <ul class="checkbox-list">
-          <li>Час партii:</li>
-          <li><input type="checkbox" />0-15 хв</li>
-          <li><input type="checkbox" />15-30 хв</li>
-          <li><input type="checkbox" />30-45 хв</li>
-          <li><input type="checkbox" />45-60 хв</li>
-          <li><input type="checkbox" />60-90 хв</li>
-          <li><input type="checkbox" />90-120 хв</li>
-          <li><input type="checkbox" />120 хв i більше</li>
-        </ul>
-      </div>
-      <div class="checkbox-container">
-        <ul class="checkbox-list">
-          <li>Кiлькiсть гравцiв:</li>
-          <li><input type="checkbox" />1</li>
-          <li><input type="checkbox" />2</li>
-          <li><input type="checkbox" />3</li>
-          <li><input type="checkbox" />4</li>
-          <li><input type="checkbox" />5</li>
-          <li><input type="checkbox" />6</li>
-          <li><input type="checkbox" />Більше 6</li>
-        </ul>
-      </div>
-      <div class="filter-func">
-        <button class="show-button">Показати</button>
-        <button class="reset-button">Зняти Виділення</button>
-      </div>
+        <div class="title">КАТАЛОГ</div>
+        <div class="checkbox-container">
+            <p class="filter-title">Мова:</p>
+            <ul class="checkbox-list">
+                <li><input type="checkbox" />Англiйська</li>
+                <li><input type="checkbox" />Французька</li>
+                <li><input type="checkbox" />Нiмецька</li>
+                <li><input type="checkbox" />Мовонезалежна</li>
+                <li><input type="checkbox" />Польска</li>
+                <li><input type="checkbox" />Украiньска</li>
+            </ul>
+        </div>
+        <div class="overflow-container">
+            <p class="filter-title">Жанр:</p>
+            <ul class="overflow-list">
+                <li><input type="checkbox" />Стратегии</li>
+                <li><input type="checkbox" />Економика</li>
+                <li><input type="checkbox" />Вийськовы</li>
+                <li><input type="checkbox" />Пригоди</li>
+                <li><input type="checkbox" />Эвро</li>
+                <li><input type="checkbox" />Абстракти</li>
+                <li><input type="checkbox" />Дискусийни</li>
+                <li><input type="checkbox" />Мафиэподибни</li>
+                <li><input type="checkbox" />Викторина</li>
+                <li><input type="checkbox" />Логични</li>
+                <li><input type="checkbox" />На кубиках</li>
+                <li><input type="checkbox" />На везиння</li>
+                <li><input type="checkbox" />Один проти всих</li>
+                <li><input type="checkbox" />Квести</li>
+                <li><input type="checkbox" />История</li>
+                <li><input type="checkbox" />Фентези</li>
+                <li><input type="checkbox" />Жахиття</li>
+                <li><input type="checkbox" />Постапокалипсис</li>
+                <li><input type="checkbox" />Спорт</li>
+                <li><input type="checkbox" />Гумор</li>
+                <li><input type="checkbox" />Головоломки</li>
+                <li><input type="checkbox" />Варгейм</li>
+                <li><input type="checkbox" />дуельни</li>
+                <li><input type="checkbox" />Казуальни</li>
+                <li><input type="checkbox" />Навчальни</li>
+                <li><input type="checkbox" />Реакция и координация</li>
+                <li><input type="checkbox" />Америтреш</li>
+                <li><input type="checkbox" />Кооператив</li>
+                <li><input type="checkbox" />Розмовни</li>
+                <li><input type="checkbox" />Рольовы</li>
+                <li><input type="checkbox" />Асоциации</li>
+        </div>
+        <div class="checkbox-container">
+            <p class="filter-title">Час партii:</p>
+            <ul class="checkbox-list">
+                <li><input type="checkbox" />0-15 хв</li>
+                <li><input type="checkbox" />15-30 хв</li>
+                <li><input type="checkbox" />30-45 хв</li>
+                <li><input type="checkbox" />45-60 хв</li>
+                <li><input type="checkbox" />60-90 хв</li>
+                <li><input type="checkbox" />90-120 хв</li>
+                <li><input type="checkbox" />120 хв i більше</li>
+            </ul>
+        </div>
+        <div class="checkbox-container">
+            <p class="filter-title">Кiлькiсть гравцiв:</p>
+            <ul class="checkbox-list">
+                <li><input type="checkbox" />1</li>
+                <li><input type="checkbox" />2</li>
+                <li><input type="checkbox" />3</li>
+                <li><input type="checkbox" />4</li>
+                <li><input type="checkbox" />5</li>
+                <li><input type="checkbox" />6</li>
+                <li><input type="checkbox" />Більше 6</li>
+            </ul>
+        </div>
+        <div class="filter-func">
+            <button class="show-button">Показати</button>
+            <button class="reset-button">Зняти Виділення</button>
+        </div>
     </div>
-  </body>
+</body>
+
 </html>
