@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <title>Filter Element</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="filter">
-        <div class="title">КАТАЛОГ</div>
-        <div class="filter-func">
-            <button class="show-button">Показати</button>
-            <button class="reset-button">Зняти Виділення</button>
-        </div>
+      <div class="title">КАТАЛОГ</div>
+      <div class="checkbox-container">
+        <ul class="checkbox-list">
+          <li>Час партii</li>
+          <li><input type="checkbox" />0-15 хв</li>
+          <li><input type="checkbox" />15-30 хв</li>
+          <li><input type="checkbox" />30-45 хв</li>
+          <li><input type="checkbox" />45-60 хв</li>
+          <li><input type="checkbox" />60-90 хв</li>
+          <li><input type="checkbox" />90-120 хв</li>
+          <li><input type="checkbox" />120 хв i більше</li>
+        </ul>
+      </div>
+      <div class="checkbox-container">
+        <ul class="checkbox-list">
+          <li>Кiлькiсть гравцiв</li>
+          <li><input type="checkbox" />1</li>
+          <li><input type="checkbox" />2</li>
+          <li><input type="checkbox" />3</li>
+          <li><input type="checkbox" />4</li>
+          <li><input type="checkbox" />5</li>
+          <li><input type="checkbox" />6</li>
+          <li><input type="checkbox" />Більше 6</li>
+        </ul>
+      </div>
+      <div class="filter-func">
+        <button class="show-button">Показати</button>
+        <button class="reset-button">Зняти Виділення</button>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
