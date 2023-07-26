@@ -113,3 +113,25 @@ button {
   border-right: 3px solid transparent;
   background-clip: padding-box;
 }
+
+.price-filter {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  padding-left: 3%;
+  gap: 5px;
+}
+
+.price {
+  width: 28%;
+  padding: 8px 6px;
+  border-radius: 5px;
+  border: solid 1px black;
+}
+
+.price-title {
+  margin-right: 80%;
+  padding: 0;
+}
