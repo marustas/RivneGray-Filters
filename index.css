@@ -9,6 +9,8 @@ body {
   background-color: #f0f0f0;
 }
 
+/*For showing purposes, change to fit in the project */
+
 .filter {
   background-color: #fff;
   border-radius: 8px;
@@ -126,7 +128,7 @@ button {
 }
 
 .price-title {
-  margin-right: 80%;
+  margin: 6% 80% 2% 0;
   padding: 0;
 }
 
