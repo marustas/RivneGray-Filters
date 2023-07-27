@@ -1,369 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <title>Filter Element</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="filter">
-        <div class="title">КАТАЛОГ</div>
-        <p class="price-title">Цiна:</p>
-        <div class="price-filter">
-            <input class="price" type="number" placeholder="0">
-            <p>-</p>
-            <input class="price" type="number" placeholder="15000">
-        </div>
-        <div class="overflow-container">
-            <p class="filter-title">Вiк гравцiв:</p>
-            <ul class="overflow-list">
-                <li>
-                    <input type="checkbox" id="6y" />
-                    <label for="6y">6+</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="7y" />
-                    <label for="7y">7+</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="8y" />
-                    <label for="8y">8+</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="9y" />
-                    <label for="9y">9+</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="10y" />
-                    <label for="10y">10+</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="11y" />
-                    <label for="11y">11+</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="12y" />
-                    <label for="12y">12+</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="13y" />
-                    <label for="13y">13+</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="14y" />
-                    <label for="14y">14+</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="15y" />
-                    <label for="15y">15+</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="16y" />
-                    <label for="16y">16+</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="17y" />
-                    <label for="17y">17+</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="18y" />
-                    <label for="18y">18+</label>
-                </li>
-        </div>
-        <div class="overflow-container">
-            <p class="filter-title">Механiка:</p>
-            <ul class="overflow-list">
-                <li>
-                    <input type="checkbox" id="mech1" />
-                    <label for="mech1">Асоциации</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech2" />
-                    <label for="mech2">Аукцион</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech3" />
-                    <label for="mech3">Блеф</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech4" />
-                    <label for="mech4">Виконання контрактив</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech5" />
-                    <label for="mech5">Випробуй вдачу</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech6" />
-                    <label for="mech6">Видкрий та малюй</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech7" />
-                    <label for="mech7">Викторина</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech8" />
-                    <label for="mech8">Вси против всих</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech9" />
-                    <label for="mech9">Дослидження</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech10" />
-                    <label for="mech10">Драфт</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech12" />
-                    <label for="mech11">Запам'ятоування</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech13" />
-                    <label for="mech13">Кидай та малюй</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech14" />
-                    <label for="mech14">Колодобудивна</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech15" />
-                    <label for="mech15">Командна гра</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech16" />
-                    <label for="mech16">Контроль територии</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech17" />
-                    <label for="mech17">Кооператив</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech18" />
-                    <label for="mech18">Малювання</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech19" />
-                    <label for="mech19">Менеджмент ресурсив</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech20" />
-                    <label for="mech20">На вибування</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech21" />
-                    <label for="mech21">Оверлорд</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech22" />
-                    <label for="mech22">Один против всих</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech23" />
-                    <label for="mech23">Програмування дни</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech24" />
-                    <label for="mech24">Перегони</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech25" />
-                    <label for="mech25">Прокладання маршруту</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech26" />
-                    <label for="mech26">Побудова колоди</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech27" />
-                    <label for="mech27">Пояснення слив</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech28" />
-                    <label for="mech28">Пригодницька</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech29" />
-                    <label for="mech29">Приховане перемищення</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech30" />
-                    <label for="mech30">Прихований зрадник</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech31" />
-                    <label for="mech31">Прокачка планшету</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech32" />
-                    <label for="mech32">Розслидування</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech33" />
-                    <label for="mech33">Розмищення плиток</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech34" />
-                    <label for="mech34">Розмищення робитникив</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech35" />
-                    <label for="mech35">Рольова</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech36" />
-                    <label for="mech36">Спритнисть</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech37" />
-                    <label for="mech37">Таэмни роли</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech38" />
-                    <label for="mech38">Торгивля</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="mech39" />
-                    <label for="mech39">Хабари</label>
-                </li>
-        </div>
-        <div class="checkbox-container">
-            <p class="filter-title">Мова:</p>
-            <ul class="checkbox-list">
-                <li>
-                    <input type="checkbox" id="lang1" />
-                    <label for="lang1">Англiйська</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="lang2" />
-                    <label for="lang2">Французька</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="lang3" />
-                    <label for="lang3">Нiмецька</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="lang4" />
-                    <label for="lang4">Мовонезалежна</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="lang5" />
-                    <label for="lang5">Польска</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="lang6" />
-                    <label for="lang6">Украiньска</label>
-                </li>
-            </ul>
-        </div>
-        <div class="overflow-container">
-            <p class="filter-title">Жанр:</p>
-            <ul class="overflow-list">
-                <li><input type="checkbox" />Стратегии</li>
-                <li><input type="checkbox" />Економика</li>
-                <li><input type="checkbox" />Вийськовы</li>
-                <li><input type="checkbox" />Пригоди</li>
-                <li><input type="checkbox" />Эвро</li>
-                <li><input type="checkbox" />Абстракти</li>
-                <li><input type="checkbox" />Дискусийни</li>
-                <li><input type="checkbox" />Мафиэподибни</li>
-                <li><input type="checkbox" />Викторина</li>
-                <li><input type="checkbox" />Логични</li>
-                <li><input type="checkbox" />На кубиках</li>
-                <li><input type="checkbox" />На везиння</li>
-                <li><input type="checkbox" />Один проти всих</li>
-                <li><input type="checkbox" />Квести</li>
-                <li><input type="checkbox" />История</li>
-                <li><input type="checkbox" />Фентези</li>
-                <li><input type="checkbox" />Жахиття</li>
-                <li><input type="checkbox" />Постапокалипсис</li>
-                <li><input type="checkbox" />Спорт</li>
-                <li><input type="checkbox" />Гумор</li>
-                <li><input type="checkbox" />Головоломки</li>
-                <li><input type="checkbox" />Варгейм</li>
-                <li><input type="checkbox" />Дуельни</li>
-                <li><input type="checkbox" />Казуальни</li>
-                <li><input type="checkbox" />Навчальни</li>
-                <li><input type="checkbox" />Реакция и координация</li>
-                <li><input type="checkbox" />Америтреш</li>
-                <li><input type="checkbox" />Кооператив</li>
-                <li><input type="checkbox" />Розмовни</li>
-                <li><input type="checkbox" />Рольовы</li>
-                <li><input type="checkbox" />Асоциации</li>
-        </div>
-        <div class="checkbox-container">
-            <p class="filter-title">Час партii:</p>
-            <ul class="checkbox-list">
-                <li>
-                    <input type="checkbox" id="time1" />
-                    <label for="time1">0-15 хв</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="time2" />
-                    <label for="time2">15-30 хв </label>
-                </li>
-                <li>
-                    <input type="checkbox" id="time3" />
-                    <label for="time3">30-45 хв</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="time4" />
-                    <label for="time4">45-60 хв</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="time5" />
-                    <label for="time5">60-90 хв</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="time6" />
-                    <label for="time6">90-120 хв</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="time7" />
-                    <label for="time7">120 хв i більше</label>
-                </li>
-            </ul>
-        </div>
-        <div class="checkbox-container">
-            <p class="filter-title">Кiлькiсть гравцiв:</p>
-            <ul class="checkbox-list">
-                <li>
-                    <input type="checkbox" id="play1" />
-                    <label for="play1">1</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="play2" />
-                    <label for="play2">2</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="play3" />
-                    <label for="play3">3</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="play4" />
-                    <label for="play4">4</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="play5" />
-                    <label for="play5">5</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="play6" />
-                    <label for="play6">6</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="play7" />
-                    <label for="play7">Більше 6</label>
-                </li>
-            </ul>
-        </div>
-        <div class="filter-func">
-            <button class="show-button">Показати</button>
-            <button class="reset-button">Зняти виділення</button>
-        </div>
+      <div class="title">КАТАЛОГ</div>
+      <p class="price-title">Цiна:</p>
+      <div class="price-filter">
+        <input class="price" type="number" placeholder="0" />
+        <p>-</p>
+        <input class="price" type="number" placeholder="15000" />
+      </div>
+      <div class="overflow-container">
+        <p class="filter-title">Вiк гравцiв:</p>
+        <ul class="overflow-list">
+          <li>
+            <input type="checkbox" id="6y" />
+            <label for="6y">6+</label>
+          </li>
+          <li>
+            <input type="checkbox" id="7y" />
+            <label for="7y">7+</label>
+          </li>
+          <li>
+            <input type="checkbox" id="8y" />
+            <label for="8y">8+</label>
+          </li>
+          <li>
+            <input type="checkbox" id="9y" />
+            <label for="9y">9+</label>
+          </li>
+          <li>
+            <input type="checkbox" id="10y" />
+            <label for="10y">10+</label>
+          </li>
+          <li>
+            <input type="checkbox" id="11y" />
+            <label for="11y">11+</label>
+          </li>
+          <li>
+            <input type="checkbox" id="12y" />
+            <label for="12y">12+</label>
+          </li>
+          <li>
+            <input type="checkbox" id="13y" />
+            <label for="13y">13+</label>
+          </li>
+          <li>
+            <input type="checkbox" id="14y" />
+            <label for="14y">14+</label>
+          </li>
+          <li>
+            <input type="checkbox" id="15y" />
+            <label for="15y">15+</label>
+          </li>
+          <li>
+            <input type="checkbox" id="16y" />
+            <label for="16y">16+</label>
+          </li>
+          <li>
+            <input type="checkbox" id="17y" />
+            <label for="17y">17+</label>
+          </li>
+          <li>
+            <input type="checkbox" id="18y" />
+            <label for="18y">18+</label>
+          </li>
+        </ul>
+      </div>
+      <div class="overflow-container">
+        <p class="filter-title">Механiка:</p>
+        <ul class="overflow-list">
+          <li>
+            <input type="checkbox" id="mech1" />
+            <label for="mech1">Асоциации</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech2" />
+            <label for="mech2">Аукцион</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech3" />
+            <label for="mech3">Блеф</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech4" />
+            <label for="mech4">Виконання контрактив</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech5" />
+            <label for="mech5">Випробуй вдачу</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech6" />
+            <label for="mech6">Видкрий та малюй</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech7" />
+            <label for="mech7">Викторина</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech8" />
+            <label for="mech8">Вси против всих</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech9" />
+            <label for="mech9">Дослидження</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech10" />
+            <label for="mech10">Драфт</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech12" />
+            <label for="mech11">Запам'ятоування</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech13" />
+            <label for="mech13">Кидай та малюй</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech14" />
+            <label for="mech14">Колодобудивна</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech15" />
+            <label for="mech15">Командна гра</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech16" />
+            <label for="mech16">Контроль територии</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech17" />
+            <label for="mech17">Кооператив</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech18" />
+            <label for="mech18">Малювання</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech19" />
+            <label for="mech19">Менеджмент ресурсив</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech20" />
+            <label for="mech20">На вибування</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech21" />
+            <label for="mech21">Оверлорд</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech22" />
+            <label for="mech22">Один против всих</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech23" />
+            <label for="mech23">Програмування дни</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech24" />
+            <label for="mech24">Перегони</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech25" />
+            <label for="mech25">Прокладання маршруту</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech26" />
+            <label for="mech26">Побудова колоди</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech27" />
+            <label for="mech27">Пояснення слив</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech28" />
+            <label for="mech28">Пригодницька</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech29" />
+            <label for="mech29">Приховане перемищення</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech30" />
+            <label for="mech30">Прихований зрадник</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech31" />
+            <label for="mech31">Прокачка планшету</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech32" />
+            <label for="mech32">Розслидування</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech33" />
+            <label for="mech33">Розмищення плиток</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech34" />
+            <label for="mech34">Розмищення робитникив</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech35" />
+            <label for="mech35">Рольова</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech36" />
+            <label for="mech36">Спритнисть</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech37" />
+            <label for="mech37">Таэмни роли</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech38" />
+            <label for="mech38">Торгивля</label>
+          </li>
+          <li>
+            <input type="checkbox" id="mech39" />
+            <label for="mech39">Хабари</label>
+          </li>
+        </ul>
+      </div>
+      <div class="checkbox-container">
+        <p class="filter-title">Мова:</p>
+        <ul class="checkbox-list">
+          <li>
+            <input type="checkbox" id="lang1" />
+            <label for="lang1">Англiйська</label>
+          </li>
+          <li>
+            <input type="checkbox" id="lang2" />
+            <label for="lang2">Французька</label>
+          </li>
+          <li>
+            <input type="checkbox" id="lang3" />
+            <label for="lang3">Нiмецька</label>
+          </li>
+          <li>
+            <input type="checkbox" id="lang4" />
+            <label for="lang4">Мовонезалежна</label>
+          </li>
+          <li>
+            <input type="checkbox" id="lang5" />
+            <label for="lang5">Польска</label>
+          </li>
+          <li>
+            <input type="checkbox" id="lang6" />
+            <label for="lang6">Украiньска</label>
+          </li>
+        </ul>
+      </div>
+      <div class="overflow-container">
+        <p class="filter-title">Жанр:</p>
+        <ul class="overflow-list">
+          <li><input type="checkbox" />Стратегии</li>
+          <li><input type="checkbox" />Економика</li>
+          <li><input type="checkbox" />Вийськовы</li>
+          <li><input type="checkbox" />Пригоди</li>
+          <li><input type="checkbox" />Эвро</li>
+          <li><input type="checkbox" />Абстракти</li>
+          <li><input type="checkbox" />Дискусийни</li>
+          <li><input type="checkbox" />Мафиэподибни</li>
+          <li><input type="checkbox" />Викторина</li>
+          <li><input type="checkbox" />Логични</li>
+          <li><input type="checkbox" />На кубиках</li>
+          <li><input type="checkbox" />На везиння</li>
+          <li><input type="checkbox" />Один проти всих</li>
+          <li><input type="checkbox" />Квести</li>
+          <li><input type="checkbox" />История</li>
+          <li><input type="checkbox" />Фентези</li>
+          <li><input type="checkbox" />Жахиття</li>
+          <li><input type="checkbox" />Постапокалипсис</li>
+          <li><input type="checkbox" />Спорт</li>
+          <li><input type="checkbox" />Гумор</li>
+          <li><input type="checkbox" />Головоломки</li>
+          <li><input type="checkbox" />Варгейм</li>
+          <li><input type="checkbox" />Дуельни</li>
+          <li><input type="checkbox" />Казуальни</li>
+          <li><input type="checkbox" />Навчальни</li>
+          <li><input type="checkbox" />Реакция и координация</li>
+          <li><input type="checkbox" />Америтреш</li>
+          <li><input type="checkbox" />Кооператив</li>
+          <li><input type="checkbox" />Розмовни</li>
+          <li><input type="checkbox" />Рольовы</li>
+          <li><input type="checkbox" />Асоциации</li>
+        </ul>
+      </div>
+      <div class="checkbox-container">
+        <p class="filter-title">Час партii:</p>
+        <ul class="checkbox-list">
+          <li>
+            <input type="checkbox" id="time1" />
+            <label for="time1">0-15 хв</label>
+          </li>
+          <li>
+            <input type="checkbox" id="time2" />
+            <label for="time2">15-30 хв </label>
+          </li>
+          <li>
+            <input type="checkbox" id="time3" />
+            <label for="time3">30-45 хв</label>
+          </li>
+          <li>
+            <input type="checkbox" id="time4" />
+            <label for="time4">45-60 хв</label>
+          </li>
+          <li>
+            <input type="checkbox" id="time5" />
+            <label for="time5">60-90 хв</label>
+          </li>
+          <li>
+            <input type="checkbox" id="time6" />
+            <label for="time6">90-120 хв</label>
+          </li>
+          <li>
+            <input type="checkbox" id="time7" />
+            <label for="time7">120 хв i більше</label>
+          </li>
+        </ul>
+      </div>
+      <div class="checkbox-container">
+        <p class="filter-title">Кiлькiсть гравцiв:</p>
+        <ul class="checkbox-list">
+          <li>
+            <input type="checkbox" id="play1" />
+            <label for="play1">1</label>
+          </li>
+          <li>
+            <input type="checkbox" id="play2" />
+            <label for="play2">2</label>
+          </li>
+          <li>
+            <input type="checkbox" id="play3" />
+            <label for="play3">3</label>
+          </li>
+          <li>
+            <input type="checkbox" id="play4" />
+            <label for="play4">4</label>
+          </li>
+          <li>
+            <input type="checkbox" id="play5" />
+            <label for="play5">5</label>
+          </li>
+          <li>
+            <input type="checkbox" id="play6" />
+            <label for="play6">6</label>
+          </li>
+          <li>
+            <input type="checkbox" id="play7" />
+            <label for="play7">Більше 6</label>
+          </li>
+        </ul>
+      </div>
+      <div class="filter-func">
+        <button class="show-button">Показати</button>
+        <button class="reset-button">Зняти виділення</button>
+      </div>
     </div>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
