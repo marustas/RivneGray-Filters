@@ -110,21 +110,18 @@ button {
   background-clip: padding-box;
 }
 
-.price-filter {
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-  padding: 0;
-  align-items: center;
-  padding-left: 3%;
-  gap: 5px;
+.price-range {
+  padding-right: 15%;
 }
 
-.price {
-  width: 28%;
-  padding: 8px 6px;
-  border-radius: 5px;
-  border: solid 1px black;
+.values span {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 .price-title {
@@ -159,4 +156,31 @@ label::before {
   justify-content: center;
   align-items: center;
   border-radius: 2px;
+}
+
+/*Custom slider*/
+
+input[type="range"] {
+  width: 100%;
+  appearance: none;
+  height: 1px;
+  background-color: black;
+  border-radius: 5px;
+  outline: none;
+  margin: 0;
+  margin-left: 10px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: #f2d14e;
+  cursor: pointer;
+  margin-top: -5px;
+}
+
+.mirrored {
+  direction: rtl;
 }

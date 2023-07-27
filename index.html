@@ -11,10 +11,28 @@
     <div class="filter">
       <div class="title">КАТАЛОГ</div>
       <p class="price-title">Цiна:</p>
-      <div class="price-filter">
-        <input class="price" type="number" placeholder="0" />
-        <p>-</p>
-        <input class="price" type="number" placeholder="15000" />
+      <div class="price-range">
+        <div class="values">
+          <span class="price" id="minValue">0</span> -
+          <span class="price" id="maxValue">15000</span>
+        </div>
+        <input
+          type="range"
+          id="slider1"
+          min="0"
+          max="15000"
+          value="0"
+          step="100"
+        />
+        <input
+          type="range"
+          id="slider2"
+          min="0"
+          max="15000"
+          value="0"
+          step="100"
+          class="mirrored"
+        />
       </div>
       <div class="overflow-container">
         <p class="filter-title">Вiк гравцiв:</p>
